@@ -1,0 +1,188 @@
+*, *:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-item {
+    min-height: 400px;
+}
+
+.main-header {
+    background: black;
+    color: white;
+    font-size: 1.4em;
+    font-family: roboto;
+    letter-spacing: .5em;
+    padding: 1em;
+    font-weight: 700;
+}
+
+.search-start {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-box {
+    position: relative;
+
+    .pre-input {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        bottom: 0px;
+        width: 40px;
+        cursor: pointer;
+        padding: 10px;
+        background: black;
+        margin: 0;
+        line-height: 1;
+        color: white;
+        font-size: 1.4em;
+    }
+}
+
+.toggle-view {
+
+    strong.mr-3 {
+        color: white;
+    }
+
+    .btn-group {
+        i.fas.fa-th-list {
+            color: white;
+        }
+
+        button {
+            color: white;
+        }
+    }
+}
+
+.grid-item {
+    border: 7px solid white;
+
+    a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 200;
+    }
+
+    .grid-details {
+        background: black;
+        padding: .6em;
+        padding-bottom: .4em;
+        line-height: 1;
+        max-height: 60px;
+    }
+}
+
+button.load-more {
+    margin-top: 1em;
+    background: white;
+    width: 49%;
+}
+
+.row-item {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #eee;
+    background: #f9f9f9;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    flex-wrap: nowrap;
+}
+
+.row-content {
+    width: 100%;
+    background: black;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    h3 {
+        padding: 2em;
+        font-size: 3em;
+        color: white;
+        font-family: roboto;
+        font-weight: 100;
+    }
+}
+
+.movie-details {
+    color: #fff;
+    font-family: roboto;
+}
+
+img.movie-image {
+    object-fit: cover;
+    width: 270px;
+    height: 100%;
+}
+
+.movie-title {
+    position: relative;
+}
+
+.movie-title__heading {
+
+    h5 {
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: underline;
+        color: white;
+        margin-left: 2em;
+    }
+}
+
+.movie-rightcol {
+    img {
+        width: 380px;
+        border: 5px solid white;
+    }
+}
+
+.like-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+}
+
+.heart-icon {
+    display: block;
+    text-align: center;
+}
+span.liked {
+    font-size: .7em;
+    display: block;
+    text-align: center;
+}
+
+.movlist-info {
+    padding-top: 6em;
+}
+
+.movlist-info__column {
+    min-width: 200px;
+    padding-left: 0;
+}
+
+.movlist-info__column__list {
+    list-style: none;
+}
+
